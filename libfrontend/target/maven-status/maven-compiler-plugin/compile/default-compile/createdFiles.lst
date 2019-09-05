@@ -1,0 +1,10 @@
+com\vaadin\antonklintcevich\spring\BookForm.class
+com\vaadin\antonklintcevich\spring\OrderView.class
+com\vaadin\antonklintcevich\spring\Application.class
+com\vaadin\antonklintcevich\spring\UserView.class
+com\vaadin\antonklintcevich\spring\SubgenresPickLayout.class
+com\vaadin\antonklintcevich\spring\MainView.class
+com\vaadin\antonklintcevich\configure\SecurityJavaConfig.class
+com\vaadin\antonklintcevich\spring\OrderForm.class
+com\vaadin\antonklintcevich\spring\UserForm.class
+com\vaadin\antonklintcevich\spring\BookView.class

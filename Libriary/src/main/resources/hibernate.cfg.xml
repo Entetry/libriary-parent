@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+
+		<!-- Connection settings -->
+		<property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+		<property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/DbOne</property>
+		<property name="hibernate.connection.username">postgres</property>
+		<property name="hibernate.connection.password">123</property>
+		<property name="pool.size">1</property>
+		<!-- SQL dialect -->
+		<property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+		<property name="hibernate.current_session_context_class">thread</property>
+		<property name="hibernate.search.default.directory_provider.">filesystem</property>
+		<property name="hibernate.search.default.indexBase">/data/index/default</property>
+		<!-- Print executed SQL to stdout -->
+		<property name="show_sql">true</property>
+
+		<!-- Drop and re-create all database on startup -->
+		<property name="hibernate.hbm2ddl.auto">update</property>
+
+		<!-- Annotated entity classes -->
+		<mapping class="com.antonklintsevich.entity.Book" />
+		<mapping class="com.antonklintsevich.entity.User" />
+		<mapping class="com.antonklintsevich.entity.Subgenre" />
+		<mapping class="com.antonklintsevich.entity.Genre" />
+		<mapping class="com.antonklintsevich.entity.Role" />
+		<mapping class="com.antonklintsevich.entity.Order" />
+		<mapping class="com.antonklintsevich.entity.Authority" />
+	</session-factory>
+</hibernate-configuration>

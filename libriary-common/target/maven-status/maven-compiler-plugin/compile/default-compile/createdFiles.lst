@@ -1,0 +1,14 @@
+com\antonklintcevich\common\SubgenreDto.class
+com\antonklintcevich\common\WalletDto.class
+com\antonklintcevich\common\UserStatusDto.class
+com\antonklintcevich\common\BookDto.class
+com\antonklintcevich\common\SearchParameters.class
+com\antonklintcevich\common\GenreDto.class
+com\antonklintcevich\common\GiftDto.class
+com\antonklintcevich\common\FilterType.class
+com\antonklintcevich\common\RoleDto.class
+com\antonklintcevich\common\OrderDto.class
+com\antonklintcevich\common\UserDto.class
+com\antonklintcevich\common\FilterData.class
+com\antonklintcevich\common\OrderStatusDto.class
+com\antonklintcevich\common\SortData.class
